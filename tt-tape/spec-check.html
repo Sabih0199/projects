@@ -1,0 +1,747 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="Heat Transfer Enhancement using Twisted Tape">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1832f552ac.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="assets/css/lightgallery.min.css">
+    <!-- Tab-Accordion CSS -->
+    <link rel="stylesheet" href="assets/css/easy-responsive-tabs.css">
+    <!-- Add fancyBox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
+    <title>Twisted Tape</title>
+  </head>
+  <body>
+    <main class="main" id="main">
+        <div id="site-loader">
+          <div class="shape">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div class="social-icons position-fixed">
+          <ul class="list-unstyled mb-0">
+            <li class="linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          </ul>
+        </div>
+        <header class="header fixed-top bg-white" id="site-header">
+            <nav class="navbar navbar-expand-lg navbar-light main-nav">
+                <div class="container">
+                  <a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" alt="Twisted Tape" class="img-fluid"></a>
+                  <button class="navbar-toggler rounded-0 border-0 shadow-none p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="menu-icon"><img src="assets/images/menu-icon.svg" alt="Menu Icon" class="img-fluid"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="mob-nav-content d-md-none">
+                      <div class="contact-info text-white text-center">Call us on <a href="tel:+4401789400401" class="fw-bold text-white text-decoration-none">+44 (0)1789 400401</a></div>
+                      <div class="lang-selector">
+                        <div class="input-group">
+                          <input type="text" class="form-control rounded-0 shadow-none" aria-label="Text input with dropdown button" placeholder="Translations" disabled>
+                          <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">EN</button>
+                          <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Lang 1</a></li>
+                            <li><a class="dropdown-item" href="#">Lang 2</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">about</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">why choose calgavin</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="technical-specs.html">technical specification</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">gallery</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-s1" href="spec-check.html">spec check</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <div class="nav-bottom-links">
+                <div class="container">
+                  <ul class="list-unstyled mb-0 d-flex text-nowrap">
+                    <li><a href="#" class="text-white fw-bold text-uppercase text-decoration-none ls--point3px lh-28px">introduction</a></li>
+                    <li><a href="#" class="text-white fw-bold text-uppercase text-decoration-none ls--point3px lh-28px">benefits</a></li>
+                    <li><a href="#" class="text-white fw-bold text-uppercase text-decoration-none ls--point3px lh-28px">knowledge &amp; expertise</a></li>
+                    <li><a href="#" class="text-white fw-bold text-uppercase text-decoration-none ls--point3px lh-28px">testimonial</a></li>
+                  </ul>
+                </div>
+              </div>
+        </header>
+        <section class="main-content" id="content-wrapper">
+          <div class="spec-check-section">
+              <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="spec-form">
+                        <form class="spech-check-form cst-form" method="POST">
+                          <div class="step-1 page-step-form" id="tt-spec-check1">
+                            <div class="form-title fw-bold text-white">Quick Twisted Tape Specification Check</div>
+                            <div class="form-group">
+                              <fieldset>
+                                <label class="clr-orange fw-bold label-big">Is your Twisted Tape specification geometry fully defined?</label>  
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="ttspecgeo" id="ttspecgeoopt1" value="yes">
+                                  <label class="form-check-label" for="ttspecgeoopt1">Yes</label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="ttspecgeo" id="ttspecgeoopt2" value="no">
+                                  <label class="form-check-label" for="ttspecgeoopt2">No</label>
+                                </div>
+                              </fieldset>
+                            </div>
+                            <a href="index.html" class="back-btn text-white text-decoration-none d-inline-block align-middle">Back</a>
+                          </div>
+                          <div class="step-2 page-step-form d-none" id="tt-spec-check2">
+                            <div class="form-title fw-bold text-white">Quick Twisted Tape Specification Check</div>
+                            <div class="form-group">
+                              <fieldset>
+                                <label class="clr-orange fw-bold label-big">Is your Tube Specification geometry fully defined?</label>  
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="tspecgeo" id="tspecgeoopt1" value="yes">
+                                  <label class="form-check-label" for="tspecgeoopt1">Yes</label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="tspecgeo" id="tspecgeoopt2" value="no">
+                                  <label class="form-check-label fp" for="tspecgeoopt2">No</label>
+                                </div>
+                              </fieldset>
+                            </div>
+                            <a href="javascript:void(0)" class="back-btn text-white text-decoration-none d-inline-block align-middle">Back</a>
+                          </div>
+                          <div class="step-5 page-step-form d-none" id="tspec-check2-no">
+                            <div class="form-title fw-bold text-white">We need more information from you</div>
+                            <div class="form-group">
+                              <fieldset>
+                                <label class="clr-orange fw-bold label-big">Please fill in the following form and one of our representatives will be in touch</label>  
+                                <div class="input-group mb-3">
+                                  <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="input-group mb-3 pt-1">
+                                  <input type="text" class="form-control" placeholder="Company">
+                                </div>
+                                <div class="input-group mb-3 pt-1">
+                                  <input type="email" class="form-control" placeholder="Email">
+                                  </div>
+                                <div class="input-group mb-3 pt-1">
+                                  <input type="text" class="form-control" placeholder="Telephone">
+                                </div>
+                                <div class="input-group mb-3 pt-1">
+                                  <textarea class="form-control" placeholder="Message"></textarea>
+                                </div>
+                                <div class="form-check consent pt-3">
+                                  <input class="form-check-input" type="checkbox" value="">
+                                  <label class="form-check-label" for="consent1">I confirm that I have read the <a href="#" class="clr-secondary">Privacy Policy,</a> and I agree to the processing of my personal data.</label>
+                                </div>
+                                <div class="form-check consent mt-3">
+                                  <input class="form-check-input" type="checkbox" value="">
+                                  <label class="form-check-label" for="consent2">I give my consent to direct marketing activities, including newsletters, in accordance with the Privacy Policy. </label>
+                                </div>
+                                <div class="g-recaptcha overflow-hidden" id="recaptcha1"></div>
+                              </fieldset>
+                              <input type="button" name="" class="submit-btn text-white text-decoration-none btn btn-s3 w-100 mt-3">
+                            </div>
+                            <a href="javascript:void(0)" class="back-btn text-white text-decoration-none d-inline-block align-middle">Back</a>
+                          </div>
+                          <div class="step-3 page-step-form d-none" id="tt-spec-form">
+                            <div class="form-title fw-bold text-white">Technical Specification Details</div>
+                            <div class="form-group">
+                              <fieldset>
+                                <label class="clr-orange fw-bold label-big">Please provide the required full Twisted Tape Specification below</label> 
+                                <div class="field-group d-flex flex-wrap">
+                                  <div class="col-md-6">
+                                    <div class="input-group info-wrap">
+                                      <input type="text" class="form-control" placeholder="Width (mm)" aria-label="Username" aria-describedby="basic-addon1">
+                                      <span class="info inf-img-width position-absolute" info-img="width">
+                                        <svg id="question" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+                                          <circle id="Ellipse_107" data-name="Ellipse 107" cx="14.5" cy="14.5" r="14.5" fill="#bfbfbf"/>
+                                          <text id="_" data-name="?" transform="translate(10 22)" fill="#fff" font-size="21" font-family="MuseoSans-700, Museo Sans" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">?</tspan></text>
+                                        </svg>                                        
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="Quantity" aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="input-group info-wrap">
+                                      <input type="text" class="form-control" placeholder="Thickness  (mm)" aria-label="Username" aria-describedby="basic-addon1">
+                                      <span class="info inf-img-thickness position-absolute" info-img="thickness">
+                                        <svg id="question" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+                                          <circle id="Ellipse_107" data-name="Ellipse 107" cx="14.5" cy="14.5" r="14.5" fill="#bfbfbf"/>
+                                          <text id="_" data-name="?" transform="translate(10 22)" fill="#fff" font-size="21" font-family="MuseoSans-700, Museo Sans" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">?</tspan></text>
+                                        </svg>
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="input-group">
+                                      <select class="form-select" aria-label="Default select example">
+                                        <option selected>Material</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="input-group info-wrap">
+                                      <input type="text" class="form-control" placeholder="Length (mm)" aria-label="Username" aria-describedby="basic-addon1">
+                                      <span class="info inf-img-length position-absolute" info-img="length">
+                                        <svg id="question" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+                                          <circle id="Ellipse_107" data-name="Ellipse 107" cx="14.5" cy="14.5" r="14.5" fill="#bfbfbf"/>
+                                          <text id="_" data-name="?" transform="translate(10 22)" fill="#fff" font-size="21" font-family="MuseoSans-700, Museo Sans" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">?</tspan></text>
+                                        </svg>
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="input-group info-wrap">
+                                      <input type="text" class="form-control" placeholder="Pitch (mm)" aria-label="Username" aria-describedby="basic-addon1">
+                                      <span class="info inf-img-pitch position-absolute" info-img="pitch">
+                                        <svg id="question" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+                                          <circle id="Ellipse_107" data-name="Ellipse 107" cx="14.5" cy="14.5" r="14.5" fill="#bfbfbf"/>
+                                          <text id="_" data-name="?" transform="translate(10 22)" fill="#fff" font-size="21" font-family="MuseoSans-700, Museo Sans" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">?</tspan></text>
+                                        </svg>
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </fieldset>
+                              <a href="javascript:void(0)" class="next-btn text-white text-decoration-none btn btn-s3 w-100 fp">next</a>
+                              <div class="shadow-btm"></div>
+                              <div class="inf-img-default d-none-mob" info-img="default">
+                                <img src="assets/images/tech-spec-details.svg" alt="Tech Spec Details" class="img-fluid">
+                              </div>
+                              <div class="info-img inf-img-width d-none d-none-mob" info-img="width">
+                                <img src="assets/images/tech-spec-width.svg" alt="Tech Spec Width" class="img-fluid">
+                              </div>
+                              <div class="info-img inf-img-thickness d-none d-none-mob" info-img="thickness">
+                                <img src="assets/images/tech-spec-thickness.svg" alt="Tech Spec Details" class="img-fluid">
+                              </div>
+                              <div class="info-img inf-img-length d-none d-none-mob" info-img="length">
+                                <img src="assets/images/tech-spec-length.svg" alt="Tech Spec Length" class="img-fluid">
+                              </div>
+                              <div class="info-img inf-img-pitch d-none d-none-mob" info-img="pitch">
+                                <img src="assets/images/tech-spec-pitch.svg" alt="Tech Spec Material" class="img-fluid">
+                              </div>
+                              <div class="inf-img-default d-md-none" info-img="default">
+                                <img src="assets/images/tech-spec-details-mob.svg" alt="Tech Spec Details" class="img-fluid">
+                              </div>
+                              <div class="info-img inf-img-width d-md-none d-none" info-img="width">
+                                <img src="assets/images/tech-spec-width-mob.svg" alt="Tech Spec Width" class="img-fluid">
+                              </div>
+                              <div class="info-img inf-img-thickness d-md-none d-none" info-img="thickness">
+                                <img src="assets/images/tech-spec-thickness-mob.svg" alt="Tech Spec Details" class="img-fluid">
+                              </div>
+                              <div class="info-img inf-img-length d-md-none d-none" info-img="length">
+                                <img src="assets/images/tech-spec-length-mob.svg" alt="Tech Spec Length" class="img-fluid">
+                              </div>
+                              <div class="info-img inf-img-pitch d-md-none d-none" info-img="pitch">
+                                <img src="assets/images/tech-spec-pitch-mob.svg" alt="Tech Spec Material" class="img-fluid">
+                              </div>
+                            </div>
+                            <a href="javascript:void(0)" class="back-btn text-white text-decoration-none d-inline-block align-middle">Back</a>
+                          </div>
+                          <div class="step-4 page-step-form d-none" id="tt-spec-form-step">
+                            <div class="form-title fw-bold text-white">Technical Specification Details</div>
+                            <div class="form-group">
+                              <fieldset>
+                                <label class="clr-orange fw-bold label-big">Select your retaining method below</label> 
+                                <div class="field-group d-flex flex-wrap">
+                                  <div class="col-md-9">
+                                    <div class="row">
+                                      <div class="col-md-4">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="specification" value="specification1">
+                                          <label class="form-check-label spec-info" for="specification1" info-img="spec-1">Specification #1</label>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="specification" value="specification2">
+                                          <label class="form-check-label spec-info" for="specification2" info-img="spec-2">Specification #2</label>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="specification" value="specification3">
+                                          <label class="form-check-label spec-info" for="specification3" info-img="spec-3">Specification #3</label>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="specification" value="specification4">
+                                          <label class="form-check-label spec-info" for="specification4" info-img="spec-4">Specification #4</label>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="specification" value="specification5">
+                                          <label class="form-check-label spec-info" for="specification5" info-img="spec-5">Specification #5</label>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="specification" value="specification6">
+                                          <label class="form-check-label spec-info" for="specification6" info-img="spec-6">Specification #6</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-12">
+                                      <div class="text clr-secondary ls--point34px lh-24px pt-2">If there is a different retaining method preference or if there are specification tolerances available, including other materials please let us know below…</div>
+                                    </div>
+                                    <div class="col-12">
+                                      <textarea class="form-control"></textarea>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-3">
+                                    <div class="info-img inf-img-spec-1 d-none" info-img="spec-1">
+                                      <img src="assets/images/tech-spec-1.jpg" alt="Tech Spec Details" class="img-fluid">
+                                    </div>
+                                    <div class="info-img inf-img-spec-2 d-none" info-img="spec-2">
+                                      <img src="assets/images/tech-spec-2.jpg" alt="Tech Spec Width" class="img-fluid">
+                                    </div>
+                                    <div class="info-img inf-img-spec-3 d-none" info-img="spec-3">
+                                      <img src="assets/images/tech-spec-3.jpg" alt="Tech Spec Details" class="img-fluid">
+                                    </div>
+                                    <div class="info-img inf-img-spec-4 d-none" info-img="spec-4">
+                                      <img src="assets/images/tech-spec-4.jpg" alt="Tech Spec Length" class="img-fluid">
+                                    </div>
+                                    <div class="info-img inf-img-spec-5 d-none" info-img="spec-5">
+                                      <img src="assets/images/tech-spec-5.jpg" alt="Tech Spec Material" class="img-fluid">
+                                    </div>
+                                    <div class="info-img inf-img-spec-6 d-none" info-img="spec-6">
+                                      <img src="assets/images/tech-spec-6.jpg" alt="Tech Spec Material" class="img-fluid">
+                                    </div>
+                                  </div>
+                                </div>
+                              </fieldset>
+                              <input type="button" name="" class="submit-btn text-white text-decoration-none btn btn-s3 w-100">
+                            </div>
+                            <a href="javascript:void(0)" class="back-btn text-white text-decoration-none d-inline-block align-middle">Back</a>
+                          </div>
+                          <div class="step-6 page-step-form d-none" id="tspec-check2-yes">
+                            <div class="form-title fw-bold text-white">Technical Specification Details</div>
+                            <div class="form-group">
+                              <fieldset>
+                                <label class="clr-orange fw-bold label-big">Please provide the required full tube specification below</label> 
+                                <div class="field-group d-flex flex-wrap">
+                                  <div class="col-md-6">
+                                    <div class="input-group info-wrap">
+                                      <input type="text" class="form-control" placeholder="Full description outside diameter (mm)" aria-label="Username" aria-describedby="basic-addon1">
+                                      <span class="info inf-img-width position-absolute">
+                                        <svg id="question" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+                                          <circle id="Ellipse_107" data-name="Ellipse 107" cx="14.5" cy="14.5" r="14.5" fill="#bfbfbf"/>
+                                          <text id="_" data-name="?" transform="translate(10 22)" fill="#fff" font-size="21" font-family="MuseoSans-700, Museo Sans" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">?</tspan></text>
+                                        </svg>                                        
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="Tube thickness (mm)" aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="input-group info-wrap">
+                                      <input type="text" class="form-control" placeholder="Tube length (mm)" aria-label="Username" aria-describedby="basic-addon1">
+                                      <span class="info inf-img-thickness position-absolute">
+                                        <svg id="question" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+                                          <circle id="Ellipse_107" data-name="Ellipse 107" cx="14.5" cy="14.5" r="14.5" fill="#bfbfbf"/>
+                                          <text id="_" data-name="?" transform="translate(10 22)" fill="#fff" font-size="21" font-family="MuseoSans-700, Museo Sans" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">?</tspan></text>
+                                        </svg>
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="input-group">
+                                      <select class="form-select" aria-label="Default select example">
+                                        <option selected>Tube material</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <div class="input-group">
+                                      <select class="form-select" aria-label="Default select example">
+                                        <option selected>Tube wall tolerance </option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <div class="input-group">
+                                      <select class="form-select" aria-label="Default select example">
+                                        <option selected>Type of application</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <div class="input-group info-wrap">
+                                      <input type="text" class="form-control" placeholder="Number of tubes" aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+                                  </div>
+                                </div>
+                              </fieldset>
+                              <a href="javascript:void(0)" class="next-btn text-white text-decoration-none btn btn-s3 w-100 fp">next</a>
+                              <div class="shadow-btm"></div>
+                              <div class="inf-img d-none-mob">
+                                <img src="assets/images/tube-spec.svg" alt="Tech Spec Details" class="img-fluid">
+                              </div>
+                              <div class="inf-img d-md-none">
+                                <img src="assets/images/tube-spec-mob.svg" alt="Tech Spec Details" class="img-fluid">
+                              </div>
+                            </div>
+                            <a href="javascript:void(0)" class="back-btn text-white text-decoration-none d-inline-block align-middle">Back</a>
+                          </div>
+                          <div class="step-7 page-step-form d-none" id="tspec-form-step">
+                            <div class="form-title fw-bold text-white">Technical Specification Details</div>
+                            <div class="form-group">
+                              <fieldset>
+                                <label class="clr-orange fw-bold label-big">Select your retaining method below</label> 
+                                <div class="field-group d-flex flex-wrap">
+                                  <div class="col-md-9">
+                                    <div class="row">
+                                      <div class="col-md-4">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="specification" value="specification1">
+                                          <label class="form-check-label spec-info" for="specification1" info-img="spec-1">Specification #1</label>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="specification" value="specification2">
+                                          <label class="form-check-label spec-info" for="specification2" info-img="spec-2">Specification #2</label>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="specification" value="specification3">
+                                          <label class="form-check-label spec-info" for="specification3" info-img="spec-3">Specification #3</label>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="specification" value="specification4">
+                                          <label class="form-check-label spec-info" for="specification4" info-img="spec-4">Specification #4</label>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="specification" value="specification5">
+                                          <label class="form-check-label spec-info" for="specification5" info-img="spec-5">Specification #5</label>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="specification" value="specification6">
+                                          <label class="form-check-label spec-info" for="specification6" info-img="spec-6">Specification #6</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-12">
+                                      <div class="text">If there is a different retaining method preference or if there are specification tolerances available, including other materials please let us know below…</div>
+                                    </div>
+                                    <div class="col-12">
+                                      <textarea class="form-control"></textarea>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-3">
+                                    <div class="info-img inf-img-spec-1 d-none" info-img="spec-1">
+                                      <img src="assets/images/tube-spec-1.svg" alt="Tech Spec Details" class="img-fluid">
+                                    </div>
+                                    <div class="info-img inf-img-spec-2 d-none" info-img="spec-2">
+                                      <img src="assets/images/tube-spec-2.svg" alt="Tech Spec Width" class="img-fluid">
+                                    </div>
+                                    <div class="info-img inf-img-spec-3 d-none" info-img="spec-3">
+                                      <img src="assets/images/tube-spec-3.svg" alt="Tech Spec Details" class="img-fluid">
+                                    </div>
+                                    <div class="info-img inf-img-spec-4 d-none" info-img="spec-4">
+                                      <img src="assets/images/tube-spec-4.svg" alt="Tech Spec Length" class="img-fluid">
+                                    </div>
+                                    <div class="info-img inf-img-spec-5 d-none" info-img="spec-5">
+                                      <img src="assets/images/tube-spec-5.svg" alt="Tech Spec Material" class="img-fluid">
+                                    </div>
+                                    <div class="info-img inf-img-spec-6 d-none" info-img="spec-6">
+                                      <img src="assets/images/tube-spec-6.svg" alt="Tech Spec Material" class="img-fluid">
+                                    </div>
+                                  </div>
+                                </div>
+                              </fieldset>
+                              <input type="button" name="" class="submit-btn text-white text-decoration-none btn btn-s3 w-100">
+                            </div>
+                            <a href="javascript:void(0)" class="back-btn text-white text-decoration-none d-inline-block align-middle">Back</a>
+                          </div>
+                        </form>
+                        <div class="spec-check-form-confirmation d-none">
+                          <div class="row">
+                            <div class="col-md-5">
+                              <div class="confirmation-text">
+                                <h1 class="fw-bold text-white">Great News</h1>
+                                <p class="text-white ls--point34px lh-28px">Your specification meets the requirements for the production of twisted tape. Please enter your contact details on the following pages and one of our representative will be in touch.</p>
+                                <a href="javascript:void(0)" class="btn btn-s6 req-price-form-trigger">request price offer</a>
+                              </div>
+                            </div>
+                            <div class="col-md-7 col-lg-6 offset-lg-1">
+                              <div class="confirmation-form-details lh-30px ls--point36px">
+                                <div class="row">
+                                  <div class="col-12">
+                                    <div class="title clr-orange fw-bold label-big">
+                                      Summary
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="row">
+                                      <div class="col-8">
+                                        Width (mm)
+                                      </div>
+                                      <div class="col-4 text-end">
+                                        00
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-12 d-md-none">
+                                    <div class="sep-3px"></div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="row">
+                                      <div class="col-8">
+                                        Quantity
+                                      </div>
+                                      <div class="col-4 text-end">
+                                        00
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-12">
+                                    <div class="sep-3px"></div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="row">
+                                      <div class="col-8">
+                                        Thickness (mm)
+                                      </div>
+                                      <div class="col-4 text-end">
+                                        00
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-12 d-md-none">
+                                    <div class="sep-3px"></div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="row">
+                                      <div class="col-8">
+                                        Material
+                                      </div>
+                                      <div class="col-4 text-end">
+                                        00
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-12">
+                                    <div class="sep-3px"></div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="row">
+                                      <div class="col-8">
+                                        Length (mm)
+                                      </div>
+                                      <div class="col-4 text-end">
+                                        00
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-12 d-md-none">
+                                    <div class="sep-3px"></div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="row">
+                                      <div class="col-8">
+                                        Pitch (mm)
+                                      </div>
+                                      <div class="col-4 text-end">
+                                        00
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-12">
+                                    <div class="sep-3px"></div>
+                                  </div>
+                                  <div class="col-12">
+                                    <div class="spec-type">
+                                      Specification #2
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="req-price d-none">
+                        <form class="req-price-form cst-form" method="POST">
+                          <div class="step-1 page-step-form" id="contact-details">
+                            <div class="form-title fw-bold text-white">Contact Information</div>
+                            <div class="form-group">
+                              <fieldset>
+                                <label class="clr-orange fw-bold label-big">Contact details</label>  
+                                <div class="input-group mb-3">
+                                  <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="input-group mb-3 pt-1">
+                                  <input type="text" class="form-control" placeholder="Company">
+                                </div>
+                                <div class="input-group mb-3 pt-1">
+                                  <input type="email" class="form-control" placeholder="Email">
+                                  </div>
+                                <div class="input-group mb-3 pt-1">
+                                  <input type="text" class="form-control" placeholder="Telephone">
+                                </div>
+                              </fieldset>
+                              <a href="javascript:void(0)" class="next-btn text-white text-decoration-none btn btn-s3 w-100 mt-3">next</a>
+                            </div>
+                            <a href="javascript:void(0)" class="back-btn text-white text-decoration-none d-inline-block align-middle">Back</a>
+                          </div>
+                          <div class="step-2 page-step-form d-none" id="address-details">
+                            <div class="form-title fw-bold text-white">Contact Information</div>
+                            <div class="form-group">
+                              <fieldset>
+                                <label class="clr-orange fw-bold label-big">Address details</label> 
+                                <div class="field-group d-flex flex-wrap">
+                                  <div class="col-12">
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="1st line of address">
+                                    </div>
+                                  </div>  
+                                  <div class="col-12">
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="2nd line of address">
+                                    </div>
+                                  </div>   
+                                  <div class="col-md-6">
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="City">
+                                    </div>
+                                  </div>  
+                                  <div class="col-6">
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="Post / Zip Code">
+                                    </div>
+                                  </div>  
+                                  <div class="col-12">
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="Country">
+                                    </div>
+                                  </div>                               
+                                </div>
+                              </fieldset>
+                              <a href="javascript:void(0)" class="next-btn text-white text-decoration-none btn btn-s3 w-100">next</a>
+                            </div>
+                            <a href="javascript:void(0)" class="back-btn text-white text-decoration-none d-inline-block align-middle">Back</a>
+                          </div>
+                          <div class="step-3 page-step-form d-none" id="additional-details">
+                            <div class="form-title fw-bold text-white">Contact Information</div>
+                            <div class="form-group">
+                              <fieldset>
+                                <label class="clr-orange fw-bold label-big">Additional Information</label>  
+                                <div class="input-group mb-3 pt-1">
+                                  <textarea class="form-control"></textarea>
+                                </div>
+                                <div class="form-check consent">
+                                  <input class="form-check-input" type="checkbox" value="">
+                                  <label class="form-check-label" for="consent1">I confirm that I have read the Privacy Policy, and I agree to the processing of my personal data.</label>
+                                </div>
+                                <div class="form-check consent">
+                                  <input class="form-check-input" type="checkbox" value="">
+                                  <label class="form-check-label" for="consent2">I give my consent to direct marketing activities, including newsletters, in accordance with the Privacy Policy. </label>
+                                </div>
+                                <div class="g-recaptcha overflow-hidden" id="recaptcha2"></div>
+                              </fieldset>
+                              <input type="submit" name="" id="" class="submit-btn text-white text-decoration-none btn btn-s3 w-100 mt-3 text-capitalize" value="Request price offer">
+                            </div>
+                            <a href="javascript:void(0)" class="back-btn text-white text-decoration-none d-inline-block align-middle">Back</a>
+                          </div>
+                        </form>
+                        <div class="req-price-form-confirmation-text d-none">
+                          <h1 class="fw-bold text-white main-title lh-57px">Thank you</h1>
+                          <p class="text-white lh-28px ls--point34px">One of our representative will be in touch. In the meantime you can contact us on <a href="tel:+4401789400401" class="fw-900 text-white d-block d-md-inline">+44(0)1789 400401</a></p>
+                          <a href="index.html" class="btn btn-s6">back to homepage</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+        <footer class="footer" id="site-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 col-lg-6">
+                <div class="copyright text-white lh-28px ls--point34px">&copy; Twisted Tape by CALGAVIN. All rights reserved.</div>
+              </div>
+              <div class="col-md-5 col-lg-6">
+                <div class="ftr-links">
+                  <ul class="list-unstyled d-flex justify-content-md-end lh-28px ls--point34px">
+                    <li><a href="#" class="text-decoration-none text-white">Privacy Policy</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Terms &amp; Conditions</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+    </main>
+    <!-- Jquery JS -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <!-- easyResponsiveTabs Js -->
+    <script src="assets/js/easyResponsiveTabs.js"></script>
+    <!-- Add fancyBox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <!-- Lightbox JS -->
+    <script type="text/javascript" src="assets/js/lightgallery.min.js"></script>
+    <!-- Recaptcha JS -->
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+    <!-- Custom JS -->
+    <script type="text/javascript" src="assets/js/kv-script.js"></script>
+  </body>
+</html>
